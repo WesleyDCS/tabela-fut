@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@font-face {
+    font-family:nova;
+    src: url(font/proxima-nova-bold.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --colorback:#FCFCFC;
+    --color02:#F5F5F5;
+    
+    --corf01:#0000FF;
+    --corf02:#00FFFF;
+    
+    --cor03:#008000;
+    --cor05:#FF0000;
+    --cor06:#CCCCCC;
+    --cor07:#999999;
+}
+#a1{
+    color: var(--corf01);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a2{
+    color: var(--corf01);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a3{
+    color: var(--corf01);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a4{
+    color: var(--corf01);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a5{
+    color: var(--corf02);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a6{
+    color: var(--corf02);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a7{
+    color: var(--cor03);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a8{
+    color: var(--cor03);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a9{
+    color: var(--cor03);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+#a10{
+    color: var(--cor03);
+    font-size: 17px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+}
+div{
+display:flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+

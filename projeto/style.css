@@ -1,0 +1,281 @@
+@charset "UTF-8";
+@font-face {
+    font-family:nova;
+    src: url(font/proxima-nova-bold.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+:root {
+    --colorback:#FCFCFC;
+    --color02:#F5F5F5;
+    
+    --corf01:#0000FF;
+    --corf02:#00FFFF;
+    
+    --cor03:#008000;
+    --cor05:#FF0000;
+    --cor06:#CCCCCC;
+    --cor07:#999999;
+    --cor08:#BEBEBE;
+    --cor09:#333333;
+}
+body {
+    width: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.icones{
+    width:30px;
+    height:30px;
+}
+h1 {
+    font:normal bold 26px "nova";
+    margin-left: 20px;
+}
+h2 {
+    font: normal bold 16px "nova";
+}
+hr {
+    width: 1000px;
+}
+table {
+    font-family:'Open Sans', sans-serif;
+    border-collapse: collapse;
+    color: var(--cor09);
+}
+.t01 {
+    margin-left: 20px;
+    border-right: 2px solid #999;
+}
+th {
+    font-size: 11px;
+    font-weight: lighter;
+}
+td{
+    font-size: 14px;
+    text-align: center;
+    padding:15px 20px;
+}
+#topoa{
+    text-align: left;
+    padding:15px 150px 15px 0px;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    color: var(--cor07);
+}
+.topo{
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    color: var(--cor07);
+}
+.topof{
+    font-size: 11px;
+    text-align: center;
+    padding: 15px 25px;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    color: var(--cor07);
+}
+.time{
+    font-size: 17px;
+    text-align: left;
+    border-bottom: 1px solid #c0c0c0;
+    padding-right: 75px;
+    padding-left: 0px;
+}
+.PC {
+    font-size:11px;
+    border-bottom: 1px solid #c0c0c0;
+    font-weight: lighter;
+    color: var(--cor08);
+    padding: 0px;
+    text-align: right;
+}
+.PI{
+    border-bottom: 1px solid #c0c0c0;
+    padding: 0px 10px 0px 5px;
+}
+.P {
+    font-weight: bold;
+    border-bottom: 1px solid #c0c0c0;
+    font-size:14px;
+    background-color:var(--color02);
+}
+.J{
+    font-size:14px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.V{
+    font-size:14px;
+    background-color:var(--color02);
+    border-bottom: 1px solid #c0c0c0;
+}
+.E{
+    font-size:14px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.D{
+    font-size:14px;
+    background-color:var(--color02);
+    border-bottom: 1px solid #c0c0c0;
+}
+.GP{
+    font-size:14px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.GC{
+    font-size:14px;
+    background-color:var(--color02);
+    border-bottom: 1px solid #c0c0c0;
+}
+.SG{
+    font-size:14px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.PE{
+    font-size:14px;
+    background-color:var(--color02);
+    border-bottom: 1px solid #c0c0c0;
+}
+.U{
+    font-size:14px;
+    border-bottom: 1px solid #c0c0c0;
+}
+img {
+    width: 8px;
+    height: 8px;
+}
+.ultimos-jogos {
+    border-radius: 50%;
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+} 
+.ultimos-jogos-e{
+    background-color: var(--cor07)
+}
+.ultimos-jogos-v {
+    background-color: var(--cor03);
+}
+.ultimos-jogos-d {
+    background-color: var(--cor05);
+}
+nav{
+    width: 840px;
+    border-bottom: 1px solid #c0c0c0;
+    border-top: 1px solid #c0c0c0;
+    margin-left: 20px;
+    height: 38px;
+}
+.rodada {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin:0px 230px;
+}
+.seta-e {
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    margin-left: 120px;
+}
+.seta-d{
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+}
+ul{
+    padding: 0px;
+}
+.jogoinf {
+    width: 840px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+}
+.jogoinf-data{
+font: normal bold 11px 'Open Sans', sans-serif;
+}
+.jogoinf-local{
+    font: normal lighter 11px 'Open Sans', sans-serif;
+}
+.jogoinf-hora{
+    font: normal bold 11px 'Open Sans', sans-serif;
+}
+.placar{
+    font: normal lighter 18px 'Open Sans', sans-serif;
+    width: 840px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.placar2{
+    width: 840px;
+    justify-content: center;
+    margin-left: 10px;
+}
+.placar3{
+    width: 840px;
+    justify-content: center;
+    margin-left: 30px;
+}
+.placar4{
+    width: 840px;
+    justify-content: center;
+    margin-left: 40px;
+}
+.placar5{
+    width: 840px;
+    justify-content: center;
+    margin-left: 30px;
+}
+.escudo-mandante{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font: normal lighter 18px 'Open Sans', sans-serif;
+}
+.escudo-mandante >img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.escudo-visitante{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font: normal lighter 18px 'Open Sans', sans-serif;
+}
+.escudo-visitante >img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.placar-x{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 60px;
+    font: normal bold 21px 'Open Sans', sans-serif;
+}
+.placar-x >img{
+    width: 9px;
+    height: 8px;
+    margin: 10px;
+}
+.transmissao{
+    width: 840px;
+    display:flex;
+    justify-content: center;
+    font: normal bolder 11px 'Open Sans', sans-serif;
+    color:var(--cor03);
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
